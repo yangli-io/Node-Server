@@ -18,5 +18,8 @@
   "homepage": "https://github.com/yangli1990/Node-Server",
   "dependencies": {
     "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
   }
 }

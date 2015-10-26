@@ -4,7 +4,8 @@
   "description": "[![Join the chat at https://gitter.im/fewd20-sydney/HowTo](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yangli1990/Node-Server)",
   "main": "httpServer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node httpServerBabel.js"
   },
   "repository": {
     "type": "git",

@@ -4,7 +4,8 @@
   "description": "[![Join the chat at https://gitter.im/fewd20-sydney/HowTo](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yangli1990/Node-Server)",
   "main": "httpServer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node httpServerBabel.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/yangli1990/Node-Server/issues"
   },
-  "homepage": "https://github.com/yangli1990/Node-Server"
+  "homepage": "https://github.com/yangli1990/Node-Server",
+  "dependencies": {
+    "babel": "^5.8.29",
+    "babel-core": "^5.8.29",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.29"
+  }
 }
